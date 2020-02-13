@@ -23,6 +23,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         TextView textView = findViewById(R.id.order_textview);
         textView.setText(message);
 
+
         //RadioButton defaultDelivery = findViewById(R.id.pickup);
         //defaultDelivery.setChecked(true);
         this.<RadioButton>findViewById(R.id.pickup).setChecked(true);
